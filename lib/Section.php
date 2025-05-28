@@ -80,7 +80,7 @@ class Section
      * @param string $comment
      * @param \SplFileObject $file
      */
-    public function __construct($comment = '', \SplFileObject $file = null)
+    public function __construct($comment = '', ?\SplFileObject $file = null)
     {
         $this->rawComment = $comment;
         $this->file = $file;
